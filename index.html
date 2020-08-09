@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Bomb Game</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="shortcut icon" href="./fav/favicon.ico">
+  </head>
+
+  <body>
+    <div><h1 id="top">Warzone Plunder</h1></div>
+    <div id="bombAnim">
+      <!-- <div><img id="preBomb" src="./fav/bomb.png" alt="bomb photo"></div> -->
+      <div><img id="explode" src="./fav/bombExplode.png" alt="bomb photo"></div>
+    </div>
+    <div><h2>Where are we dropping?!</h2></div>
+    <div>
+      <ol class="rules">
+        <li class="outline"> Search for cash and get that chicken dinner. </li>
+        <li class="outline"> Be careful of claymores, they are everywhere. </li>
+      </ol>
+    </div>
+
+    <!-- <script type="text/javascript">var clicks = 0;</script> -->
+<div>
+    <p class="turns">Turns Remaining : <span id="clicks">15</span></p>
+</div>
+    <br>
+    <div>
+    <p class="green">Cash : $<span id="cash">0</span></p>
+  </div><br>
+
+</div>
+<div>
+
+    <table class="tableStyle" width="850px" height="500px">
+        <tr>
+          <td id="0" onclick="treasure(0)"> <img src="./fav/chest.png"> </td>
+          <td id="1" onclick="treasure(1)"><img src="./fav/chest.png"></td>
+          <td id="2" onclick="treasure(2)"><img src="./fav/chest.png"></td>
+          <td id="3" onclick="treasure(3)"><img src="./fav/chest.png"></td>
+          <td id="4" onclick="treasure(4)"><img src="./fav/chest.png"></td>
+        </tr>
+        <tr>
+          <td id="5" onclick="treasure(5)"><img src="./fav/chest.png"></td>
+          <td id="6" onclick="treasure(6)"><img src="./fav/chest.png"></td>
+          <td id="7" onclick="treasure(7)"><img src="./fav/chest.png"></td>
+          <td id="8" onclick="treasure(8)"><img src="./fav/chest.png"></td>
+          <td id="9" onclick="treasure(9)"><img src="./fav/chest.png"></td>
+        </tr>
+        <tr>
+          <td id="10" onclick="treasure(10)"><img src="./fav/chest.png"></td>
+          <td id="11" onclick="treasure(11)"><img src="./fav/chest.png"></td>
+          <td id="12" onclick="treasure(12)"><img src="./fav/chest.png"></td>
+          <td id="13" onclick="treasure(13)"><img src="./fav/chest.png"></td>
+          <td id="14" onclick="treasure(14)"><img src="./fav/chest.png"></td>
+        </tr>
+        <tr>
+          <td id="15" onclick="treasure(15)"><img src="./fav/chest.png"></td>
+          <td id="16" onclick="treasure(16)"><img src="./fav/chest.png"></td>
+          <td id="17" onclick="treasure(17)"><img src="./fav/chest.png"></td>
+          <td id="18" onclick="treasure(18)"><img src="./fav/chest.png"></td>
+          <td id="19" onclick="treasure(19)"><img src="./fav/chest.png"></td>
+        </tr>
+        <tr>
+          <td id="20" onclick="treasure(20)"><img src="./fav/chest.png"></td>
+          <td id="21" onclick="treasure(21)"><img src="./fav/chest.png"></td>
+          <td id="22" onclick="treasure(22)"><img src="./fav/chest.png"></td>
+          <td id="23" onclick="treasure(23)"><img src="./fav/chest.png"></td>
+          <td id="24" onclick="treasure(24)"><img src="./fav/chest.png"></td>
+        </tr>
+    </table>
+
+  </div> <br>
+<div>
+    <button class="button" type="button" onclick="location.reload()">Reset Game</button> <br>
+</div>
+    <footer>Made By Joe, Drew, and Jason <br>
+      <hr>
+    <a href="#top">Go to top!</a> <br>
+    <a href="https://flexboxfroggy.com/">Play More Games<a/>
+    </footer>
+    <script type="text/javascript" src="new.js"></script>
+  </body>
+</html>

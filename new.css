@@ -1,0 +1,137 @@
+* {
+  font-family: 'Staatliches', cursive;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: bounceIn;
+  font-size: 150px;
+  text-shadow: 2px 2px #bf2f0b;
+  color: black;
+}
+
+h2 {
+  text-shadow: 2px 2px #bf2f0b;
+  color: black;
+  font-size: 60px;
+}
+
+.turns {
+  text-shadow: 2px 2px #bf2f0b;
+  color: black;
+  font-size: 32px;
+}
+
+body {
+  background-color: #555959;
+  color: white;
+  background-image: url(https://c0.wallpaperflare.com/preview/294/79/614/trees-during-foggy-morning.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+.rules {
+  color: white;
+  text-shadow: 2px 2px #000;
+  font-size: 35px;
+}
+
+.tableStyle {
+  border-style: groove;
+  border-color: black;
+  border-width: thick;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes preBomb {
+  0% {
+    transform: scale(1);
+    opacity:1;
+  }
+  45% {
+    transform: scale(1.4);
+    opacity:1;
+  }
+  55% {
+    transform: scale(1.8);
+    opacity:0;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity:0;
+  }
+}
+
+@keyframes explode {
+
+}
+
+#preBomb {
+  height: 200px;
+  /* animation-name: preBomb;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.5s;
+  animation-direction: alternate; */
+}
+
+#explode {
+  height: 200px;
+}
+
+/* #preBomb, #explode {
+  display : inline;
+  position: absolute;
+  left:50px;
+}
+
+#bombAnim {
+  position: relative;
+} */
+
+.button {
+  background-color: #947f47;
+ border: none;
+ color: black;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+  font-size: 16px;
+}
+
+.green {
+  color: green;
+  text-shadow: 2px 2px #000;
+  font-size: 35px;
+}
